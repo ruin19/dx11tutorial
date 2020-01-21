@@ -1,0 +1,14 @@
+﻿  cameraclass.cpp
+  colorshaderclass.cpp
+c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(32): error C2664: “bool ColorShaderClass::InitializeShader(ID3D11Device *,HWND,WCHAR *,WCHAR *)”: 无法将参数 3 从“const wchar_t [19]”转换为“WCHAR *”
+  c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(32): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(100): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“WCHAR *”转换为“LPCSTR”
+  c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(100): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(119): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“WCHAR *”转换为“LPCSTR”
+  c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(119): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(258): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [61]”转换为“LPCSTR”
+  c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\colorshaderclass.cpp(258): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  d3dclass.cpp
+c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\d3dclass.cpp(123): error C2664: “errno_t wcstombs_s(size_t *,char *,size_t,const wchar_t *,size_t)”: 无法将参数 1 从“unsigned __int64 *”转换为“size_t *”
+  c:\users\ringlu.tencent\documents\code\others\dx11_tutorial\source\d3dclass.cpp(123): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  graphicsclass.cpp
